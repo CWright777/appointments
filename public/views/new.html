@@ -1,0 +1,16 @@
+<div>
+  <h1>New Appointment</h1>
+  <form ng-submit="addApt()">
+    Date:
+    <input type="date" ng-model="newApt.date">
+    <br>
+    Time:
+    <input type="time" ng-model="newApt.time">
+    <br>
+    Complaint:
+    <br>
+    <textarea rows="8" cols="40"ng-model="newApt.complaint"></textarea>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+</div>
